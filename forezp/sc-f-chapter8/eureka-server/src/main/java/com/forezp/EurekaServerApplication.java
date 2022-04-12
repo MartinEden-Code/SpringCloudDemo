@@ -16,13 +16,6 @@ public class EurekaServerApplication {
 
 
 	public static void main(String[] args) {
-		//SpringApplication.run(EurekaServerApplication.class, args);
-		Map<String,Object> map = new HashMap<>(10);
-		map.put("12",12);
-		map.put("13",13);
-		for(String key :map.keySet()){
-			System.out.println(key);
-			//map.put("14",14);
-		}
+		SpringApplication.run(EurekaServerApplication.class, args);
 	}
 }
