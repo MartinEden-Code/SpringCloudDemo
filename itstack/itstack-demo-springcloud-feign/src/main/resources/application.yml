@@ -1,0 +1,21 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: itstack-demo-springcloud-feign
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7397/eureka/
+
+#开启熔断。本地测试不启动eureka-client，以达到服务不可以用的效果，促发熔断，Feign配置hystrix服务
+feign.hystrix.enabled: true
+
+#hystrix bashboard配置 http://localhost:9001/actuator/hystrix.stream  地址可以直接获取ping数据，或者根据dashboard展示监控页面
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream

@@ -1,0 +1,20 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: itstack-demo-springcloud-ribbon
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7397/eureka/
+
+
+#hystrix bashboard配置 http://localhost:9001/actuator/hystrix.stream  地址可以直接获取ping数据，或者根据dashboard展示监控页面
+#需要配置这个才能在dashboard中进行监控
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream

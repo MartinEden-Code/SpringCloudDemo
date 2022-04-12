@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="itstack-demo-springcloud-config-client" />
+        <module name="config-client" />
+        <module name="itstack-demo-springcloud-eureka-server" />
+        <module name="itstack-demo-springcloud-feign" />
+        <module name="itstack-demo-springcloud-config-server" />
+        <module name="itstack-demo-springcloud-turbine" />
+        <module name="itstack-demo-springcloud-ribbon" />
+        <module name="eureka-server" />
+        <module name="itstack-demo-springcloud-hystrix-dashboard" />
+        <module name="itstack-demo-springcloud-zuul" />
+        <module name="itstack-demo-springcloud-eureka-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="02-服务提供与负载均衡调用 Eureka" target="8" />
+      <module name="chapter1" target="8" />
+      <module name="chapter3" target="8" />
+      <module name="sc-f-chapter8" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="02-服务提供与负载均衡调用 Eureka" options="-parameters" />
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="itstack" options="-parameters" />
+      <module name="itstack-demo-springcloud-config-client" options="-parameters" />
+      <module name="itstack-demo-springcloud-config-server" options="-parameters" />
+      <module name="itstack-demo-springcloud-eureka-client" options="-parameters" />
+      <module name="itstack-demo-springcloud-eureka-server" options="-parameters" />
+      <module name="itstack-demo-springcloud-feign" options="-parameters" />
+      <module name="itstack-demo-springcloud-hystrix-dashboard" options="-parameters" />
+      <module name="itstack-demo-springcloud-ribbon" options="-parameters" />
+      <module name="itstack-demo-springcloud-turbine" options="-parameters" />
+      <module name="itstack-demo-springcloud-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

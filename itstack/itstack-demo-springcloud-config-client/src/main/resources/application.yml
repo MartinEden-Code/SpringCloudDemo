@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: itstack-demo-springcloud-config-client
+  cloud:
+    #消息总线配置
+    bus:
+      trace:
+        enabled: true
+      enabled: true
+server:
+  port: 9001
+
+# 不使用消息总线 /actuator/refresh 这个 Endpoint 暴露出来
+#使用消息总线则注释掉
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: refresh
+

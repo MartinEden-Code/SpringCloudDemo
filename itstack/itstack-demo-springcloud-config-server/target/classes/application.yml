@@ -1,0 +1,35 @@
+server:
+
+  #port: 7397
+  #消息总线使用端口
+  port: 8080
+
+spring:
+  application:
+    name: itstack-demo-springcloud-config-server
+  cloud:
+    config:
+      server:
+#        git:
+#          # 换成自己的配置Git仓库的地址，如果没有可以新建工程地址，也可以克隆我的
+#          uri: https://github.com/MartinEden-Code/config
+#          # Git仓库地址下的底层配置文件名称，如果配置多个用逗号','分割。
+#          search-paths:
+#          # 如果配置中心需要访问权限，则开启配置
+#          username: 1960105529@qq.com
+#          password: hongxingyi1996..
+
+        git:
+          uri: https://github.com/fuzhengwei/itstack-demo-config
+          search-paths: config-repo
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7397/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        #消息总线配置
+        include: bus-refresh

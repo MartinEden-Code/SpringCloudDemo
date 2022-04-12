@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/forezp/sc-f-chapter8/config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/forezp/sc-f-chapter8/config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/forezp/sc-f-chapter8/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itstack/itstack-demo-springcloud-config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itstack/itstack-demo-springcloud-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itstack/itstack-demo-springcloud-eureka-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itstack/itstack-demo-springcloud-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itstack/itstack-demo-springcloud-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itstack/itstack-demo-springcloud-hystrix-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itstack/itstack-demo-springcloud-ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itstack/itstack-demo-springcloud-turbine/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itstack/itstack-demo-springcloud-zuul/src/main/java" charset="UTF-8" />
+  </component>
+</project>
