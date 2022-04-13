@@ -22,5 +22,6 @@ public class EurekaServerApplication {
 		System.out.println("test分支修改提交bug2");
 		System.out.println("dev分支修改提交bug2");
 		System.out.println("dev分支修改提交bug3");
+		System.out.println("dev分支修改提交bug4");
 	}
 }
